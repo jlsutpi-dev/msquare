@@ -1,0 +1,19 @@
+body {
+  background-color: #8a784e;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stopwatch {
+  color: #aec8a4;
+  font-size: 200px;
+  font-weight: bold;
+}
+
+.btn {
+  margin: 10px;
+}
