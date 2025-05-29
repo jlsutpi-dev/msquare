@@ -1,0 +1,51 @@
+body {
+  background-color: black !important;
+}
+
+.form-control {
+  max-width: 400px;
+  justify-content: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.spanTag {
+  color: black;
+  height: auto;
+}
+.product_container {
+  margin-top: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product_name {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  user-select: none;
+}
+.purchased {
+  text-decoration: line-through;
+}
+
+.fa-trash {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.parent_container {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}

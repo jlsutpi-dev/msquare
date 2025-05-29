@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>event</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      .photo {
+        height: 400px;
+        display: block;
+        margin-bottom: 40px;
+        border-radius: 5px;
+      }
+      .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #eaefef;
+        width: 550px;
+        height: 500px;
+        margin: 20px auto;
+        border-radius: 5px;
+      }
+      .btn {
+        display: block;
+        background-color: red;
+        color: aliceblue;
+        border: 0px;
+        padding: 8px 20px;
+        font-size: 20px;
+        border-radius: 5px;
+      }
+      .btn:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <img
+        src="https://i.pinimg.com/736x/35/cd/68/35cd6831f05d152c93ad64487cd0e625.jpg"
+        alt=""
+        class="photo"
+      />
+      <button class="btn">change photo</button>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
